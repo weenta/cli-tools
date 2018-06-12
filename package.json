@@ -1,0 +1,15 @@
+{
+  "name": "03cli_tools",
+  "version": "1.0.0",
+  "description": "搭建cli脚手架常用工具测试、说明",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "commander": "^2.15.1"
+  }
+}
