@@ -1,6 +1,6 @@
 # 搭建cli脚手架常用工具说明     
 
-## 1.chalk     
+## 1 chalk     
 [chalk](https://www.npmjs.com/package/chalk)  
 > 命令行输出彩色信息(粉笔)          
 ```js
@@ -20,7 +20,7 @@
     log(chalk.green.bgRed.bold('Hello world!'))
 ```
 
-## 2.commander 
+## 2 commander 
 [commander](https://www.npmjs.com/package/commander) 
 [API documentation](http://tj.github.io/commander.js/)       
 > The complete solution for node.js command-line interfaces     
@@ -29,6 +29,11 @@ http://blog.gejiawen.com/2016/09/21/make-a-node-cli-program-by-commander-js/
 http://blog.fens.me/nodejs-commander/       
 http://www.imooc.com/article/3156   
 
-## 3.inquirer
+## 3 inquirer
 > A collection of common interactive command line user interfaces.
 
+## 4 ora
+
+## 5 download-git-repo
+
+## 6 fs-extra
