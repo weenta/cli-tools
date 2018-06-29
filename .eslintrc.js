@@ -6,82 +6,38 @@ module.exports = {
     "node": true
   },
   "extends": [
-    "eslint:recommended",
-    // for vue proj
-    "plugin:vue/recommended"
+    "eslint:recommended"
   ],
   "parserOptions": {
     "ecmaVersion": 2015,
     "sourceType": "module"
   },
   "rules": {
-    "indent": [
-      "error",
-      2
-    ],
-    "linebreak-style": [
-      "error",
-      "unix"
-    ],
-    "quotes": [
-      "error",
-      "double"
-    ],
-    "semi": [
-      "error",
-      "never"
-    ],
-    "no-unused-vars": [
-      "warn"
-    ],
-    "no-const-assign": [
-      "error"
-    ],
-    "no-mixed-spaces-and-tabs": [
-      "error"
-    ],
-    "constructor-super": [
-      "error"
-    ],
-    "no-this-before-super": [
-      "error"
-    ],
-
-    // 最大空行1
-    "no-multiple-empty-lines": [
-      "error",
-      { "max": 1 }
-    ],
-
-    // {} 内部前后有空格
-    "block-spacing": [
-      "error",
-      "always"
-    ],
-
-    // 禁止多空格 评论除外
-    "no-multi-spaces": [
-      "error",
-      { "ignoreEOLComments": true }
-    ],
-
-    // 关键字后有空格
-    "keyword-spacing": ["error", {
-      "before": false,
-      "after": true
-    }],
-
-    // 操作符前后有空格
-    "space-infix-ops": [
-      "error"
-    ],
-
-    "no-console": [
-      "off"
-    ],
-  },
-  // for vue proj
-  "plugins": [
-    "vue"
-  ]
-};
+    "indent": ["error", 2, { "SwitchCase": 1 }],
+    "linebreak-style": ["error", "unix"],
+    "quotes": ["error", "single"],
+    "semi": ["error", "never"],
+    "no-const-assign": ["error"],
+    "no-mixed-spaces-and-tabs": ["error"],
+    "constructor-super": ["error"],
+    "no-this-before-super": ["error"],
+    "no-multiple-empty-lines": ["error", { "max": 1 }],
+    "block-spacing": ["error", "always"],     // {} 内部前后有空格
+    "no-multi-spaces": ["error", { "ignoreEOLComments": true }],
+    "keyword-spacing": ["error", { "before": true, "after": true }],
+    "space-infix-ops": ["error"],   // 操作符前后有空格
+    "key-spacing": ["error"],
+    "constructor-super": ["error"],
+    "no-duplicate-case": ["error"],
+    "no-duplicate-imports": ["error"],
+    "no-fallthrough": ["error"],
+    "no-shadow-restricted-names": ["error"],
+    "no-sparse-arrays": ["error"],
+    "no-unmodified-loop-condition": ["error"],
+    "no-unsafe-negation": ["error"],
+    "space-before-blocks": ["error"],
+    "valid-typeof": ["error"],
+    "no-unused-vars": ["warn"],
+    "no-console": ["off"]
+  }
+}
