@@ -4,9 +4,7 @@
  * commander .command 语法
  */
 const program = require('commander')
-const chalk = require('chalk')
-const logg = (msg) => { console.log(chalk.green(msg)) }
-const logr = (msg) => { console.log(chalk.red(msg)) }
+const logger = require('../01chalk/logger')
 
 program
   .version('0.0.1')
@@ -30,7 +28,7 @@ program
         greeting = 'how r u'
     }
     let msg = `Hi ${name}, ${greeting}`
-    logg(msg)
+    logger.cyan(msg)
   })
 
 // 点餐
@@ -39,7 +37,7 @@ program
   .description('name a food you for your dinner')
   .action(function (food) {
     let msg = `place wait sir, we will call you when your ${food} is ready`
-    logr(msg)
+    logger.red(msg)
   })
 
 program.parse(process.argv)

@@ -22,10 +22,10 @@ module.exports = {
     "constructor-super": ["error"],
     "no-this-before-super": ["error"],
     "no-multiple-empty-lines": ["error", { "max": 1 }],
-    "block-spacing": ["error", "always"],     // {} 内部前后有空格
+    "block-spacing": ["error", "always"],
     "no-multi-spaces": ["error", { "ignoreEOLComments": true }],
     "keyword-spacing": ["error", { "before": true, "after": true }],
-    "space-infix-ops": ["error"],   // 操作符前后有空格
+    "space-infix-ops": ["error"],
     "key-spacing": ["error"],
     "constructor-super": ["error"],
     "no-duplicate-case": ["error"],

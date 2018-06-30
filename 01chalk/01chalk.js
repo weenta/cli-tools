@@ -4,6 +4,9 @@ const log = console.log
 // 输出蓝色 hello world
 log(chalk.blue('hello world'))
 
+// 输出青色 hello world
+log(chalk.cyan('hello world'))
+
 // 输出红色 hello world
 log(chalk.red('hello world'))
 

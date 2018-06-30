@@ -4,13 +4,11 @@
     // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-        
         {
             "type": "node",
             "request": "launch",
             "name": "启动程序",
-            // "program": "${workspaceFolder}/02commander.js"
-            "program": "${workspaceFolder}/03commander_option.js"
+            "program": "${workspaceFolder}/03inquirer/01pizza.js"
         }
     ]
 }
