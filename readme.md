@@ -33,7 +33,12 @@ http://www.imooc.com/article/3156
 > A collection of common interactive command line user interfaces.
 
 ## 4 ora
+> Elegant terminal spinner
+[ora](https://www.npmjs.com/package/ora)
 
 ## 5 download-git-repo
 
+
 ## 6 fs-extra
+
+## 最后结局替换的问题
