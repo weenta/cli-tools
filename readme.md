@@ -37,7 +37,7 @@ http://www.imooc.com/article/3156
 [ora](https://www.npmjs.com/package/ora)
 
 ## 5 download-git-repo
-
+> Download a git repository to a destination folder with options, and callback.
 
 ## 6 fs-extra
 
