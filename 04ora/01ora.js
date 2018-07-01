@@ -9,9 +9,12 @@ const spinner = ora({
 setTimeout(() => {
   spinner.color = 'yellow'
   spinner.text = 'Loading rainbows'
-}, 5000)
+}, 2000)
 
 setTimeout(() => {
-  spinner.stop()
-}, 10000)
+  // spinner.stop()
+  spinner.succeed(['success'])
+  spinner.fail(['error'])
+  spinner.warn(['warn'])
+}, 4000)
 

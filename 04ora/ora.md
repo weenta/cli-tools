@@ -1,5 +1,11 @@
 # ora
 
+## API
+- `.start()`
+- `.stop()`
+- `.succeed([text])`
+- `.fail([text])`
+
 ```js
 const ora = require('ora')
 
@@ -15,7 +21,8 @@ setTimeout(() => {
 }, 5000)
 
 setTimeout(() => {
-  spinner.stop()
+  // spinner.stop()
+  spinner.succeed(['success'])
 }, 10000)
 
 ```
