@@ -41,4 +41,8 @@ http://www.imooc.com/article/3156
 
 ## 6 fs-extra
 
-## 最后结局替换的问题
+## TODO
+- 替换问题
+参考： vuejs-templates
+
+- 开始vue-amdin-cli
