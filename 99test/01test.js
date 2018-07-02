@@ -1,0 +1,5 @@
+const path = require('path')
+const home = require('user-home')
+const tmp = path.join(home, '.vue-templates', 'webpack'.replace(/[\/:]/g, '-'))
+console.log(tmp)
+console.log(home)

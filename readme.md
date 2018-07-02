@@ -40,9 +40,18 @@ http://www.imooc.com/article/3156
 > Download a git repository to a destination folder with options, and callback.
 
 ## 6 fs-extra
+> fs-extra adds file system methods that aren't included in the native fs module and adds promise support to the fs methods.
+- 暂时没有用到
+
+## 7 metalsmith
+An extremely simple, pluggable static site generator.
+
+## 8 handlebars
+渲染mustache template语法
+
+## 逻辑：
+下载库到本地 -> metalsmith读取渲染文件到目标地址 -> handlebars替换mustache template语法
 
 ## TODO
-- 替换问题
-参考： vuejs-templates
-
-- 开始vue-amdin-cli
+本地测试
+metalsmith + handlebars
