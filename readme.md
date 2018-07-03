@@ -48,14 +48,8 @@ An extremely simple, pluggable static site generator.
 
 ## 8 handlebars
 渲染mustache template语法
+调用`handlebars.render`完成mustache的替换
 
-## 9 metalsmith
-> An extremely simple, pluggable static site generator.
-用于buffer读取、写入
-
-## 逻辑：
-下载库到本地 -> metalsmith读取渲染文件到目标地址 -> handlebars替换mustache template语法
-
-## TODO
-本地测试
-metalsmith + handlebars
+## 9 metalsmith(重点)       
+the core library is actually just an abstraction for manipulating a directory of files.
+`09metalsmith/` 完整本地测试        
