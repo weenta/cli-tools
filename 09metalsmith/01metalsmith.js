@@ -9,7 +9,7 @@ const manualData = {
   greet: 'hello world!'
 }
 
-const metalsmith = Metalsmith('../template')
+const metalsmith = Metalsmith('../template/')
   .use(template)
   .build(function (err) {
     if (err) throw err
