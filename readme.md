@@ -49,6 +49,10 @@ An extremely simple, pluggable static site generator.
 ## 8 handlebars
 渲染mustache template语法
 
+## 9 metalsmith
+> An extremely simple, pluggable static site generator.
+用于buffer读取、写入
+
 ## 逻辑：
 下载库到本地 -> metalsmith读取渲染文件到目标地址 -> handlebars替换mustache template语法
 
