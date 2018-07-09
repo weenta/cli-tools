@@ -41,7 +41,6 @@ http://www.imooc.com/article/3156
 
 ## 6 fs-extra
 > fs-extra adds file system methods that aren't included in the native fs module and adds promise support to the fs methods.
-- 暂时没有用到
 
 ## 7 metalsmith
 An extremely simple, pluggable static site generator.

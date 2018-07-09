@@ -8,7 +8,8 @@
             "type": "node",
             "request": "launch",
             "name": "启动程序",
-            "program": "${workspaceFolder}/03inquirer/01pizza.js"
+            // "program": "${workspaceFolder}/03inquirer/01pizza.js"
+            "program": "${workspaceFolder}/09metalsmith/01metalsmith.js"
         }
     ]
 }
